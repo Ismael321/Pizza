@@ -10,7 +10,8 @@ namespace Pizzaria_eddy.Conexion
     class Conexion
     {
         public static bool Is_Ok = false;
-        static string CadenaConexion = "Data Source=DESKTOP-0296OVT;Initial Catalog=Pizza;Integrated Security=True";
+
+        static string CadenaConexion = "Data Source=TOLOSA;Initial Catalog=Pizza;Persist Security Info=True;User ID=IsmaDB;Password=1234";
 
         SqlConnection ConexionDB = new SqlConnection(CadenaConexion);
 

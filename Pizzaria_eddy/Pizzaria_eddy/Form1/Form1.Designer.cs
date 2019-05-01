@@ -81,7 +81,6 @@
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(126, 20);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
             // 
             // Logeo
             // 
@@ -109,7 +108,6 @@
             this.Name = "inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Eddy\'s";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.inicio_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.inicio_FormClosed);
             this.Load += new System.EventHandler(this.inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
