@@ -10,3 +10,6 @@ C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.inicio.resources
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pizza.resources
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Admin.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.exe.config
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.exe
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pdb
