@@ -23,3 +23,15 @@ C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizz
 C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.exe
 C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pdb
 C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.orden.ordenar.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.exe.config
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.exe
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pdb
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.exe
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.pdb
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csprojResolveAssemblyReference.cache
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.inicio.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Admin.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.orden.ordenar.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pizza.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Properties.Resources.resources
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csproj.GenerateResource.Cache
