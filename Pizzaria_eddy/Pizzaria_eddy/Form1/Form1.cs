@@ -74,6 +74,16 @@ namespace Pizzaria_eddy
 
         private void inicio_FormClosing(object sender, FormClosingEventArgs e)
         {
+        //    Application.Exit();
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+         //   this.Logeo_Click();
+        }
+
+        private void inicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
             Application.Exit();
         }
     }
