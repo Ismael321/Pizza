@@ -26,5 +26,10 @@ namespace Pizzaria_eddy.orden
         {
 
         }
+
+        private void ordenar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            new pizza().Show();
+        }
     }
 }

@@ -108,7 +108,7 @@
             this.Name = "inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Eddy\'s";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.inicio_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.inicio_FormClosing);
             this.Load += new System.EventHandler(this.inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

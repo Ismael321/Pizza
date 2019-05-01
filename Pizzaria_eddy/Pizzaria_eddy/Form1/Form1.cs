@@ -72,7 +72,7 @@ namespace Pizzaria_eddy
             logeo(this.textBox1.Text, this.textBox2.Text);
         }
 
-        private void inicio_FormClosed(object sender, FormClosedEventArgs e)
+        private void inicio_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
