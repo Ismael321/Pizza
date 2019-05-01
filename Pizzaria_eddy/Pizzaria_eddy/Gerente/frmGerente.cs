@@ -24,6 +24,10 @@ namespace Pizzaria_eddy
         private void Admin_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            Informacion();
+            Actualizar = false;
+            String Tabla = "Empleados";
+            ObjetoConexion.ActualizarGrid(DataGridEmpleados, objetoQuery, Tabla);
         }
         #region Eventos Button/TextBox
         void LimpiarTextBox()
@@ -87,6 +91,7 @@ namespace Pizzaria_eddy
                 else if (txtTelefono.Text.Trim().ToString().Equals("")) { MessageBox.Show("LLene Campo Telefono"); return; }
                 else if (txtCurp.Text.Trim().ToString().Equals("")) { MessageBox.Show("LLene Campo CURP"); return; }
                 else if (txtNSS.Text.Trim().ToString().Equals("")) { MessageBox.Show("LLene Campo NSS"); return; }
+                else if (txtSalario.Text.Trim().ToString().Equals("")) { MessageBox.Show("LLene Campo Salario"); return; }
                 else
                 {
                     if (txtSalario.Text.Trim().ToString().Equals("0")) { MessageBox.Show("Salario no Asignado, Valor por Default '0'"); }
@@ -125,5 +130,52 @@ namespace Pizzaria_eddy
             txtSalario.Text = this.DataGridEmpleados.CurrentRow.Cells[7].Value.ToString();
             // txtID.Enabled = false;
         }
+        private bool DetectarFormularioAbierto(String Formulario)
+        {
+            bool abierto = false;
+            if (Application.OpenForms[Formulario] != null)
+            {
+                abierto = true;
+                Application.OpenForms[Formulario].Activate();
+                Application.OpenForms[Formulario].WindowState = FormWindowState.Maximized;
+            }
+            return abierto;
+        }
+        #region Validaciones txtBox
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloLetras(e);
+        }
+
+        private void txtApellidoP_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloLetras(e);
+        }
+
+        private void txtApellidoM_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloLetras(e);
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloNumeros(e);
+        }
+
+        private void txtNSS_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloNumeros(e);
+        }
+
+        private void txtSalario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloNumeros(e);
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Gerente.SlnGerente.SoloLetras(e);
+        }
+        #endregion
     }
 }

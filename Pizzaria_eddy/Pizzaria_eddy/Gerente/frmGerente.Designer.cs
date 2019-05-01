@@ -64,6 +64,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(137, 20);
             this.txtNombre.TabIndex = 0;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtApellidoP
             // 
@@ -71,6 +72,7 @@
             this.txtApellidoP.Name = "txtApellidoP";
             this.txtApellidoP.Size = new System.Drawing.Size(137, 20);
             this.txtApellidoP.TabIndex = 1;
+            this.txtApellidoP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidoP_KeyPress);
             // 
             // txtApellidoM
             // 
@@ -78,6 +80,7 @@
             this.txtApellidoM.Name = "txtApellidoM";
             this.txtApellidoM.Size = new System.Drawing.Size(137, 20);
             this.txtApellidoM.TabIndex = 2;
+            this.txtApellidoM.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidoM_KeyPress);
             // 
             // txtTelefono
             // 
@@ -85,6 +88,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(110, 20);
             this.txtTelefono.TabIndex = 3;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // txtCurp
             // 
@@ -99,6 +103,7 @@
             this.txtNSS.Name = "txtNSS";
             this.txtNSS.Size = new System.Drawing.Size(135, 20);
             this.txtNSS.TabIndex = 5;
+            this.txtNSS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNSS_KeyPress);
             // 
             // txtSalario
             // 
@@ -106,6 +111,8 @@
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(60, 20);
             this.txtSalario.TabIndex = 6;
+            this.txtSalario.Text = "0";
+            this.txtSalario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalario_KeyPress);
             // 
             // txtID
             // 
@@ -278,6 +285,7 @@
             this.txtBuscar.Size = new System.Drawing.Size(232, 20);
             this.txtBuscar.TabIndex = 11;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // DataGridEmpleados
             // 
