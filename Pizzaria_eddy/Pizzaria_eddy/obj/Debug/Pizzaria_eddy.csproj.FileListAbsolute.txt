@@ -10,3 +10,16 @@ C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.inicio.resources
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pizza.resources
 C:\Users\pepin\Documents\C#\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Admin.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.exe.config
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.exe
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\bin\Debug\Pizzaria_eddy.pdb
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csprojAssemblyReference.cache
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.inicio.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Admin.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pizza.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Properties.Resources.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csproj.GenerateResource.cache
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csproj.CoreCompileInputs.cache
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.exe
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.pdb
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.orden.ordenar.resources
