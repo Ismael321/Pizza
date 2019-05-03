@@ -35,3 +35,4 @@ C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizz
 C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Properties.Resources.resources
 C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.csproj.GenerateResource.Cache
 C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Ordenar.ordenar.resources
+C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Factura.Factura.resources
