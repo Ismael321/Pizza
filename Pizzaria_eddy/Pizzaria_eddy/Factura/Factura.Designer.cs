@@ -241,6 +241,7 @@
             this.Name = "Factura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Eddy\'s";
+            this.Load += new System.EventHandler(this.Factura_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GB_Fecha.ResumeLayout(false);
             this.GB_Fecha.PerformLayout();

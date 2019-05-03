@@ -51,12 +51,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonRegresar = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-=======
             this.radioButtonSi = new System.Windows.Forms.RadioButton();
             this.radioButtonNo = new System.Windows.Forms.RadioButton();
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +62,7 @@
             // 
             this.L_tamano.AutoSize = true;
             this.L_tamano.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_tamano.Location = new System.Drawing.Point(425, 68);
+            this.L_tamano.Location = new System.Drawing.Point(381, 56);
             this.L_tamano.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_tamano.Name = "L_tamano";
             this.L_tamano.Size = new System.Drawing.Size(154, 19);
@@ -81,7 +78,7 @@
             "Mediana ",
             "Grande ",
             "Familiar"});
-            this.Box_tamano.Location = new System.Drawing.Point(424, 103);
+            this.Box_tamano.Location = new System.Drawing.Point(380, 91);
             this.Box_tamano.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Box_tamano.Name = "Box_tamano";
             this.Box_tamano.Size = new System.Drawing.Size(171, 27);
@@ -96,26 +93,18 @@
             "1",
             "2",
             "3"});
-<<<<<<< HEAD
-            this.comboBox1.Location = new System.Drawing.Point(329, 218);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(91, 23);
-            this.comboBox1.TabIndex = 2;
-=======
-            this.CBIngredientes.Location = new System.Drawing.Point(148, 178);
+            this.CBIngredientes.Location = new System.Drawing.Point(240, 189);
             this.CBIngredientes.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CBIngredientes.Name = "CBIngredientes";
             this.CBIngredientes.Size = new System.Drawing.Size(48, 23);
             this.CBIngredientes.TabIndex = 2;
             this.CBIngredientes.SelectedIndexChanged += new System.EventHandler(this.CBIngredientes_SelectedIndexChanged);
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(294, 187);
+            this.label1.Location = new System.Drawing.Point(236, 146);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 19);
@@ -126,7 +115,7 @@
             // 
             this.L_ingrediente_1.AutoSize = true;
             this.L_ingrediente_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_ingrediente_1.Location = new System.Drawing.Point(259, 270);
+            this.L_ingrediente_1.Location = new System.Drawing.Point(235, 232);
             this.L_ingrediente_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_ingrediente_1.Name = "L_ingrediente_1";
             this.L_ingrediente_1.Size = new System.Drawing.Size(93, 18);
@@ -137,7 +126,7 @@
             // 
             this.L_Ingrediente_2.AutoSize = true;
             this.L_Ingrediente_2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Ingrediente_2.Location = new System.Drawing.Point(464, 269);
+            this.L_Ingrediente_2.Location = new System.Drawing.Point(457, 232);
             this.L_Ingrediente_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_Ingrediente_2.Name = "L_Ingrediente_2";
             this.L_Ingrediente_2.Size = new System.Drawing.Size(98, 19);
@@ -148,7 +137,7 @@
             // 
             this.L_Ingrediente_3.AutoSize = true;
             this.L_Ingrediente_3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Ingrediente_3.Location = new System.Drawing.Point(656, 269);
+            this.L_Ingrediente_3.Location = new System.Drawing.Point(649, 232);
             this.L_Ingrediente_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_Ingrediente_3.Name = "L_Ingrediente_3";
             this.L_Ingrediente_3.Size = new System.Drawing.Size(98, 19);
@@ -159,7 +148,7 @@
             // 
             this.B_ingrediente_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_ingrediente_1.FormattingEnabled = true;
-            this.B_ingrediente_1.Location = new System.Drawing.Point(240, 295);
+            this.B_ingrediente_1.Location = new System.Drawing.Point(238, 258);
             this.B_ingrediente_1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_ingrediente_1.Name = "B_ingrediente_1";
             this.B_ingrediente_1.Size = new System.Drawing.Size(120, 23);
@@ -169,7 +158,7 @@
             // 
             this.B_ingrediente_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_ingrediente_2.FormattingEnabled = true;
-            this.B_ingrediente_2.Location = new System.Drawing.Point(448, 295);
+            this.B_ingrediente_2.Location = new System.Drawing.Point(441, 258);
             this.B_ingrediente_2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_ingrediente_2.Name = "B_ingrediente_2";
             this.B_ingrediente_2.Size = new System.Drawing.Size(114, 23);
@@ -179,7 +168,7 @@
             // 
             this.B_Ingrediente_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_Ingrediente_3.FormattingEnabled = true;
-            this.B_Ingrediente_3.Location = new System.Drawing.Point(647, 295);
+            this.B_Ingrediente_3.Location = new System.Drawing.Point(640, 258);
             this.B_Ingrediente_3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_Ingrediente_3.Name = "B_Ingrediente_3";
             this.B_Ingrediente_3.Size = new System.Drawing.Size(117, 23);
@@ -189,7 +178,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(194, 349);
+            this.label2.Location = new System.Drawing.Point(234, 312);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 19);
@@ -205,61 +194,7 @@
             "Manzanita",
             "7Seven",
             "Fanta"});
-<<<<<<< HEAD
-            this.B_refresco.Location = new System.Drawing.Point(262, 410);
-            this.B_refresco.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.B_refresco.Name = "B_refresco";
-            this.B_refresco.Size = new System.Drawing.Size(70, 23);
-            this.B_refresco.TabIndex = 11;
-            this.B_refresco.Text = "Sabor";
-            // 
-            // CB_refrescoS
-            // 
-            this.CB_refrescoS.AutoSize = true;
-            this.CB_refrescoS.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoS.Location = new System.Drawing.Point(264, 371);
-            this.CB_refrescoS.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.CB_refrescoS.Name = "CB_refrescoS";
-            this.CB_refrescoS.Size = new System.Drawing.Size(42, 23);
-            this.CB_refrescoS.TabIndex = 12;
-            this.CB_refrescoS.Text = "Si";
-            this.CB_refrescoS.UseVisualStyleBackColor = true;
-            // 
-            // CB_refrescoN
-            // 
-            this.CB_refrescoN.AutoSize = true;
-            this.CB_refrescoN.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoN.Location = new System.Drawing.Point(329, 371);
-            this.CB_refrescoN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.CB_refrescoN.Name = "CB_refrescoN";
-            this.CB_refrescoN.Size = new System.Drawing.Size(48, 23);
-            this.CB_refrescoN.TabIndex = 13;
-            this.CB_refrescoN.Text = "No";
-            this.CB_refrescoN.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(397, 410);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(114, 23);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "Tamaño";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(573, 410);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(117, 23);
-            this.comboBox3.TabIndex = 15;
-            this.comboBox3.Text = "Cantidad";
-=======
-            this.CBSabor.Location = new System.Drawing.Point(146, 363);
+            this.CBSabor.Location = new System.Drawing.Point(238, 358);
             this.CBSabor.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CBSabor.Name = "CBSabor";
             this.CBSabor.Size = new System.Drawing.Size(124, 23);
@@ -270,7 +205,7 @@
             // 
             this.CBTamano.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBTamano.FormattingEnabled = true;
-            this.CBTamano.Location = new System.Drawing.Point(348, 363);
+            this.CBTamano.Location = new System.Drawing.Point(440, 358);
             this.CBTamano.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CBTamano.Name = "CBTamano";
             this.CBTamano.Size = new System.Drawing.Size(114, 23);
@@ -281,13 +216,12 @@
             // 
             this.CBCantidad.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBCantidad.FormattingEnabled = true;
-            this.CBCantidad.Location = new System.Drawing.Point(519, 363);
+            this.CBCantidad.Location = new System.Drawing.Point(611, 358);
             this.CBCantidad.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CBCantidad.Name = "CBCantidad";
             this.CBCantidad.Size = new System.Drawing.Size(117, 23);
             this.CBCantidad.TabIndex = 15;
             this.CBCantidad.Text = "Cantidad";
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
             // 
             // TB_total
             // 
@@ -302,7 +236,7 @@
             // 
             this.Lb_Total.AutoSize = true;
             this.Lb_Total.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_Total.Location = new System.Drawing.Point(518, 476);
+            this.Lb_Total.Location = new System.Drawing.Point(569, 476);
             this.Lb_Total.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Total.Name = "Lb_Total";
             this.Lb_Total.Size = new System.Drawing.Size(44, 19);
@@ -325,7 +259,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(179, 476);
+            this.label3.Location = new System.Drawing.Point(236, 476);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 19);
@@ -373,7 +307,6 @@
             this.buttonRegresar.UseVisualStyleBackColor = true;
             this.buttonRegresar.Click += new System.EventHandler(this.buttonRegresar_Click);
             // 
-<<<<<<< HEAD
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
@@ -382,12 +315,12 @@
             this.pictureBox2.Size = new System.Drawing.Size(289, 161);
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;
-=======
+            // 
             // radioButtonSi
             // 
             this.radioButtonSi.AutoSize = true;
             this.radioButtonSi.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.radioButtonSi.Location = new System.Drawing.Point(229, 319);
+            this.radioButtonSi.Location = new System.Drawing.Point(332, 310);
             this.radioButtonSi.Name = "radioButtonSi";
             this.radioButtonSi.Size = new System.Drawing.Size(41, 23);
             this.radioButtonSi.TabIndex = 25;
@@ -400,7 +333,7 @@
             // 
             this.radioButtonNo.AutoSize = true;
             this.radioButtonNo.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.radioButtonNo.Location = new System.Drawing.Point(287, 322);
+            this.radioButtonNo.Location = new System.Drawing.Point(390, 313);
             this.radioButtonNo.Name = "radioButtonNo";
             this.radioButtonNo.Size = new System.Drawing.Size(47, 23);
             this.radioButtonNo.TabIndex = 26;
@@ -408,19 +341,14 @@
             this.radioButtonNo.Text = "No";
             this.radioButtonNo.UseVisualStyleBackColor = true;
             this.radioButtonNo.CheckedChanged += new System.EventHandler(this.radioButtonNo_CheckedChanged);
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
             // 
             // ordenar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1339, 632);
-<<<<<<< HEAD
-            this.Controls.Add(this.pictureBox2);
-=======
             this.Controls.Add(this.radioButtonNo);
             this.Controls.Add(this.radioButtonSi);
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
             this.Controls.Add(this.buttonRegresar);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.pictureBox1);
@@ -483,11 +411,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonRegresar;
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox2;
-=======
         private System.Windows.Forms.RadioButton radioButtonSi;
         private System.Windows.Forms.RadioButton radioButtonNo;
->>>>>>> c508d6ca23886589d81186637845dfdea1be46dc
     }
 }
