@@ -30,7 +30,7 @@ namespace Pizzaria_eddy
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new orden.ordenar().Show();
+            new Ordenar.ordenar().Show();
         }
     }
 }
