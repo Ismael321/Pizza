@@ -16,5 +16,10 @@ namespace Pizzaria_eddy.Factura
         {
             InitializeComponent();
         }
+
+        private void LB_fecha_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

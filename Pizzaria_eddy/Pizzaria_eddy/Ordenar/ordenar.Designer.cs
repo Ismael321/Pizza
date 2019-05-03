@@ -51,17 +51,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.TB_Nombre = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonRegresar = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // L_tamano
             // 
             this.L_tamano.AutoSize = true;
             this.L_tamano.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_tamano.Location = new System.Drawing.Point(325, 68);
+            this.L_tamano.Location = new System.Drawing.Point(425, 68);
             this.L_tamano.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_tamano.Name = "L_tamano";
             this.L_tamano.Size = new System.Drawing.Size(154, 19);
@@ -75,11 +76,12 @@
             this.Box_tamano.Items.AddRange(new object[] {
             "Chica",
             "Mediana ",
-            "Grande Familiar"});
-            this.Box_tamano.Location = new System.Drawing.Point(329, 109);
+            "Grande ",
+            "Familiar"});
+            this.Box_tamano.Location = new System.Drawing.Point(424, 103);
             this.Box_tamano.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Box_tamano.Name = "Box_tamano";
-            this.Box_tamano.Size = new System.Drawing.Size(145, 27);
+            this.Box_tamano.Size = new System.Drawing.Size(171, 27);
             this.Box_tamano.TabIndex = 1;
             this.Box_tamano.Text = "     Seleccione Una Opcion";
             // 
@@ -91,7 +93,7 @@
             "1",
             "2",
             "3"});
-            this.comboBox1.Location = new System.Drawing.Point(148, 178);
+            this.comboBox1.Location = new System.Drawing.Point(329, 218);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(91, 23);
@@ -101,7 +103,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(146, 146);
+            this.label1.Location = new System.Drawing.Point(294, 187);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 19);
@@ -112,7 +114,7 @@
             // 
             this.L_ingrediente_1.AutoSize = true;
             this.L_ingrediente_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_ingrediente_1.Location = new System.Drawing.Point(150, 216);
+            this.L_ingrediente_1.Location = new System.Drawing.Point(259, 270);
             this.L_ingrediente_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_ingrediente_1.Name = "L_ingrediente_1";
             this.L_ingrediente_1.Size = new System.Drawing.Size(93, 18);
@@ -123,7 +125,7 @@
             // 
             this.L_Ingrediente_2.AutoSize = true;
             this.L_Ingrediente_2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Ingrediente_2.Location = new System.Drawing.Point(344, 216);
+            this.L_Ingrediente_2.Location = new System.Drawing.Point(464, 269);
             this.L_Ingrediente_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_Ingrediente_2.Name = "L_Ingrediente_2";
             this.L_Ingrediente_2.Size = new System.Drawing.Size(98, 19);
@@ -134,7 +136,7 @@
             // 
             this.L_Ingrediente_3.AutoSize = true;
             this.L_Ingrediente_3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Ingrediente_3.Location = new System.Drawing.Point(562, 216);
+            this.L_Ingrediente_3.Location = new System.Drawing.Point(656, 269);
             this.L_Ingrediente_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.L_Ingrediente_3.Name = "L_Ingrediente_3";
             this.L_Ingrediente_3.Size = new System.Drawing.Size(98, 19);
@@ -145,7 +147,7 @@
             // 
             this.B_ingrediente_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_ingrediente_1.FormattingEnabled = true;
-            this.B_ingrediente_1.Location = new System.Drawing.Point(150, 252);
+            this.B_ingrediente_1.Location = new System.Drawing.Point(240, 295);
             this.B_ingrediente_1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_ingrediente_1.Name = "B_ingrediente_1";
             this.B_ingrediente_1.Size = new System.Drawing.Size(112, 23);
@@ -155,7 +157,7 @@
             // 
             this.B_ingrediente_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_ingrediente_2.FormattingEnabled = true;
-            this.B_ingrediente_2.Location = new System.Drawing.Point(348, 252);
+            this.B_ingrediente_2.Location = new System.Drawing.Point(448, 295);
             this.B_ingrediente_2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_ingrediente_2.Name = "B_ingrediente_2";
             this.B_ingrediente_2.Size = new System.Drawing.Size(114, 23);
@@ -165,7 +167,7 @@
             // 
             this.B_Ingrediente_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_Ingrediente_3.FormattingEnabled = true;
-            this.B_Ingrediente_3.Location = new System.Drawing.Point(566, 252);
+            this.B_Ingrediente_3.Location = new System.Drawing.Point(647, 295);
             this.B_Ingrediente_3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_Ingrediente_3.Name = "B_Ingrediente_3";
             this.B_Ingrediente_3.Size = new System.Drawing.Size(117, 23);
@@ -175,7 +177,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(144, 319);
+            this.label2.Location = new System.Drawing.Point(194, 349);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 19);
@@ -191,7 +193,7 @@
             "Manzanita",
             "7Seven",
             "Fanta"});
-            this.B_refresco.Location = new System.Drawing.Point(146, 363);
+            this.B_refresco.Location = new System.Drawing.Point(262, 410);
             this.B_refresco.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_refresco.Name = "B_refresco";
             this.B_refresco.Size = new System.Drawing.Size(70, 23);
@@ -202,7 +204,7 @@
             // 
             this.CB_refrescoS.AutoSize = true;
             this.CB_refrescoS.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoS.Location = new System.Drawing.Point(214, 319);
+            this.CB_refrescoS.Location = new System.Drawing.Point(264, 371);
             this.CB_refrescoS.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CB_refrescoS.Name = "CB_refrescoS";
             this.CB_refrescoS.Size = new System.Drawing.Size(42, 23);
@@ -214,7 +216,7 @@
             // 
             this.CB_refrescoN.AutoSize = true;
             this.CB_refrescoN.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoN.Location = new System.Drawing.Point(260, 319);
+            this.CB_refrescoN.Location = new System.Drawing.Point(329, 371);
             this.CB_refrescoN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CB_refrescoN.Name = "CB_refrescoN";
             this.CB_refrescoN.Size = new System.Drawing.Size(48, 23);
@@ -226,7 +228,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(274, 363);
+            this.comboBox2.Location = new System.Drawing.Point(397, 410);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(114, 23);
@@ -237,7 +239,7 @@
             // 
             this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(445, 363);
+            this.comboBox3.Location = new System.Drawing.Point(573, 410);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(117, 23);
@@ -247,7 +249,7 @@
             // TB_total
             // 
             this.TB_total.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_total.Location = new System.Drawing.Point(459, 435);
+            this.TB_total.Location = new System.Drawing.Point(573, 508);
             this.TB_total.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.TB_total.Name = "TB_total";
             this.TB_total.Size = new System.Drawing.Size(68, 26);
@@ -257,7 +259,7 @@
             // 
             this.Lb_Total.AutoSize = true;
             this.Lb_Total.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_Total.Location = new System.Drawing.Point(414, 412);
+            this.Lb_Total.Location = new System.Drawing.Point(518, 476);
             this.Lb_Total.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Total.Name = "Lb_Total";
             this.Lb_Total.Size = new System.Drawing.Size(44, 19);
@@ -267,7 +269,7 @@
             // buttonConfirmar
             // 
             this.buttonConfirmar.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonConfirmar.Location = new System.Drawing.Point(715, 489);
+            this.buttonConfirmar.Location = new System.Drawing.Point(740, 507);
             this.buttonConfirmar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.buttonConfirmar.Name = "buttonConfirmar";
             this.buttonConfirmar.Size = new System.Drawing.Size(94, 23);
@@ -280,7 +282,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(142, 412);
+            this.label3.Location = new System.Drawing.Point(179, 476);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 19);
@@ -290,7 +292,7 @@
             // TB_Nombre
             // 
             this.TB_Nombre.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_Nombre.Location = new System.Drawing.Point(146, 438);
+            this.TB_Nombre.Location = new System.Drawing.Point(240, 508);
             this.TB_Nombre.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.TB_Nombre.Name = "TB_Nombre";
             this.TB_Nombre.Size = new System.Drawing.Size(179, 22);
@@ -307,21 +309,10 @@
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Mistral", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 26);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 42);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Pizza Eddie\'S";
-            // 
             // buttonCancelar
             // 
-            this.buttonCancelar.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCancelar.Location = new System.Drawing.Point(828, 489);
+            this.buttonCancelar.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCancelar.Location = new System.Drawing.Point(881, 507);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelar.TabIndex = 23;
@@ -330,7 +321,8 @@
             // 
             // buttonRegresar
             // 
-            this.buttonRegresar.Location = new System.Drawing.Point(931, 489);
+            this.buttonRegresar.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRegresar.Location = new System.Drawing.Point(1008, 507);
             this.buttonRegresar.Name = "buttonRegresar";
             this.buttonRegresar.Size = new System.Drawing.Size(75, 23);
             this.buttonRegresar.TabIndex = 24;
@@ -338,14 +330,23 @@
             this.buttonRegresar.UseVisualStyleBackColor = true;
             this.buttonRegresar.Click += new System.EventHandler(this.buttonRegresar_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(289, 161);
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
+            // 
             // ordenar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1339, 632);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonRegresar);
             this.Controls.Add(this.buttonCancelar);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TB_Nombre);
             this.Controls.Add(this.label3);
@@ -378,6 +379,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ordenar_FormClosing);
             this.Load += new System.EventHandler(this.ordenar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -407,8 +409,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TB_Nombre;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonRegresar;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
