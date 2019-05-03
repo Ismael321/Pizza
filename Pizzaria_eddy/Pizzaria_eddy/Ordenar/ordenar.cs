@@ -19,13 +19,23 @@ namespace Pizzaria_eddy.Ordenar
 
         private void ordenar_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void ordenar_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.Hide();
             new pizza().Show();
+        }
+
+        private void buttonRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonConfirmar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

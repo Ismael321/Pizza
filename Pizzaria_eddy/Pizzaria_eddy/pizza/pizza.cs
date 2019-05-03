@@ -32,5 +32,10 @@ namespace Pizzaria_eddy
             this.Hide();
             new Ordenar.ordenar().Show();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
