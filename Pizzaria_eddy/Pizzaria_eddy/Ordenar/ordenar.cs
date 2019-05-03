@@ -84,6 +84,12 @@ namespace Pizzaria_eddy.Ordenar
                 B_ingrediente_2.Enabled = true;
                 B_Ingrediente_3.Enabled = true;
             }
+            else
+            {
+                B_ingrediente_1.Enabled = false;
+                B_ingrediente_2.Enabled = false;
+                B_Ingrediente_3.Enabled = false;
+            }
         }
         #endregion
 
