@@ -342,9 +342,11 @@
             this.radioButtonNo.UseVisualStyleBackColor = true;
             this.radioButtonNo.CheckedChanged += new System.EventHandler(this.radioButtonNo_CheckedChanged);
             // 
+            this.SuspendLayout();
+            // 
             // ordenar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1339, 632);
             this.Controls.Add(this.radioButtonNo);
@@ -372,18 +374,11 @@
             this.Controls.Add(this.Box_tamano);
             this.Controls.Add(this.L_tamano);
             this.Font = new System.Drawing.Font("Mistral", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "ordenar";
             this.Text = "Pizza Eddy\'s";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ordenar_FormClosing);
-            this.Load += new System.EventHandler(this.ordenar_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
