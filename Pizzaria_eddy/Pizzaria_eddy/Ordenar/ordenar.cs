@@ -20,6 +20,12 @@ namespace Pizzaria_eddy.Ordenar
         private void ordenar_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            CBSabor.Enabled = false;
+            CBTamano.Enabled = false;
+            CBCantidad.Enabled = false;
+            B_ingrediente_1.Enabled = false;
+            B_ingrediente_2.Enabled = false;
+            B_Ingrediente_3.Enabled = false;
         }
 
         private void ordenar_FormClosing(object sender, FormClosingEventArgs e)
@@ -37,5 +43,49 @@ namespace Pizzaria_eddy.Ordenar
         {
 
         }
+        #region Button Validation
+        private void radioButtonSi_CheckedChanged(object sender, EventArgs e)
+        {
+            if(radioButtonSi.AutoCheck == true)
+            {
+                CBSabor.Enabled = true;
+                CBTamano.Enabled = true;
+                CBCantidad.Enabled = true;
+            }
+        }
+
+        private void radioButtonNo_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonNo.AutoCheck == true)
+            {
+                CBSabor.Enabled = false;
+                CBTamano.Enabled = false;
+                CBCantidad.Enabled = false;
+            }
+        }
+
+        private void CBIngredientes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(CBIngredientes.SelectedItem.ToString() == "1")
+            {
+                B_ingrediente_1.Enabled = true;
+                B_ingrediente_2.Enabled = false;
+                B_Ingrediente_3.Enabled = false;
+            }
+            else if (CBIngredientes.SelectedItem.ToString() == "2")
+            {
+                B_ingrediente_2.Enabled = true;
+                B_ingrediente_1.Enabled = true;
+                B_Ingrediente_3.Enabled = false;
+            }
+            else if (CBIngredientes.SelectedItem.ToString() == "3")
+            {
+                B_ingrediente_1.Enabled = true;
+                B_ingrediente_2.Enabled = true;
+                B_Ingrediente_3.Enabled = true;
+            }
+        }
+        #endregion
+
     }
 }

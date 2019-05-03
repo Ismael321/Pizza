@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ordenar));
             this.L_tamano = new System.Windows.Forms.Label();
             this.Box_tamano = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CBIngredientes = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.L_ingrediente_1 = new System.Windows.Forms.Label();
             this.L_Ingrediente_2 = new System.Windows.Forms.Label();
@@ -40,11 +40,9 @@
             this.B_ingrediente_2 = new System.Windows.Forms.ComboBox();
             this.B_Ingrediente_3 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.B_refresco = new System.Windows.Forms.ComboBox();
-            this.CB_refrescoS = new System.Windows.Forms.CheckBox();
-            this.CB_refrescoN = new System.Windows.Forms.CheckBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.CBSabor = new System.Windows.Forms.ComboBox();
+            this.CBTamano = new System.Windows.Forms.ComboBox();
+            this.CBCantidad = new System.Windows.Forms.ComboBox();
             this.TB_total = new System.Windows.Forms.TextBox();
             this.Lb_Total = new System.Windows.Forms.Label();
             this.buttonConfirmar = new System.Windows.Forms.Button();
@@ -54,6 +52,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonRegresar = new System.Windows.Forms.Button();
+            this.radioButtonSi = new System.Windows.Forms.RadioButton();
+            this.radioButtonNo = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,19 +83,20 @@
             this.Box_tamano.TabIndex = 1;
             this.Box_tamano.Text = "     Seleccione Una Opcion";
             // 
-            // comboBox1
+            // CBIngredientes
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CBIngredientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBIngredientes.FormattingEnabled = true;
+            this.CBIngredientes.Items.AddRange(new object[] {
             "1",
             "2",
             "3"});
-            this.comboBox1.Location = new System.Drawing.Point(148, 178);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(91, 23);
-            this.comboBox1.TabIndex = 2;
+            this.CBIngredientes.Location = new System.Drawing.Point(148, 178);
+            this.CBIngredientes.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.CBIngredientes.Name = "CBIngredientes";
+            this.CBIngredientes.Size = new System.Drawing.Size(48, 23);
+            this.CBIngredientes.TabIndex = 2;
+            this.CBIngredientes.SelectedIndexChanged += new System.EventHandler(this.CBIngredientes_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -148,7 +149,7 @@
             this.B_ingrediente_1.Location = new System.Drawing.Point(150, 252);
             this.B_ingrediente_1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.B_ingrediente_1.Name = "B_ingrediente_1";
-            this.B_ingrediente_1.Size = new System.Drawing.Size(112, 23);
+            this.B_ingrediente_1.Size = new System.Drawing.Size(120, 23);
             this.B_ingrediente_1.TabIndex = 7;
             // 
             // B_ingrediente_2
@@ -182,67 +183,43 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Refresco";
             // 
-            // B_refresco
+            // CBSabor
             // 
-            this.B_refresco.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_refresco.FormattingEnabled = true;
-            this.B_refresco.Items.AddRange(new object[] {
+            this.CBSabor.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBSabor.FormattingEnabled = true;
+            this.CBSabor.Items.AddRange(new object[] {
             "Coca-Cola",
             "Manzanita",
             "7Seven",
             "Fanta"});
-            this.B_refresco.Location = new System.Drawing.Point(146, 363);
-            this.B_refresco.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.B_refresco.Name = "B_refresco";
-            this.B_refresco.Size = new System.Drawing.Size(70, 23);
-            this.B_refresco.TabIndex = 11;
-            this.B_refresco.Text = "Sabor";
+            this.CBSabor.Location = new System.Drawing.Point(146, 363);
+            this.CBSabor.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.CBSabor.Name = "CBSabor";
+            this.CBSabor.Size = new System.Drawing.Size(124, 23);
+            this.CBSabor.TabIndex = 11;
+            this.CBSabor.Text = "Sabor";
             // 
-            // CB_refrescoS
+            // CBTamano
             // 
-            this.CB_refrescoS.AutoSize = true;
-            this.CB_refrescoS.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoS.Location = new System.Drawing.Point(214, 319);
-            this.CB_refrescoS.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.CB_refrescoS.Name = "CB_refrescoS";
-            this.CB_refrescoS.Size = new System.Drawing.Size(42, 23);
-            this.CB_refrescoS.TabIndex = 12;
-            this.CB_refrescoS.Text = "Si";
-            this.CB_refrescoS.UseVisualStyleBackColor = true;
+            this.CBTamano.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBTamano.FormattingEnabled = true;
+            this.CBTamano.Location = new System.Drawing.Point(348, 363);
+            this.CBTamano.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.CBTamano.Name = "CBTamano";
+            this.CBTamano.Size = new System.Drawing.Size(114, 23);
+            this.CBTamano.TabIndex = 14;
+            this.CBTamano.Text = "Tamaño";
             // 
-            // CB_refrescoN
+            // CBCantidad
             // 
-            this.CB_refrescoN.AutoSize = true;
-            this.CB_refrescoN.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CB_refrescoN.Location = new System.Drawing.Point(260, 319);
-            this.CB_refrescoN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.CB_refrescoN.Name = "CB_refrescoN";
-            this.CB_refrescoN.Size = new System.Drawing.Size(48, 23);
-            this.CB_refrescoN.TabIndex = 13;
-            this.CB_refrescoN.Text = "No";
-            this.CB_refrescoN.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(274, 363);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(114, 23);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "Tamaño";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(445, 363);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(117, 23);
-            this.comboBox3.TabIndex = 15;
-            this.comboBox3.Text = "Cantidad";
+            this.CBCantidad.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBCantidad.FormattingEnabled = true;
+            this.CBCantidad.Location = new System.Drawing.Point(519, 363);
+            this.CBCantidad.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.CBCantidad.Name = "CBCantidad";
+            this.CBCantidad.Size = new System.Drawing.Size(117, 23);
+            this.CBCantidad.TabIndex = 15;
+            this.CBCantidad.Text = "Cantidad";
             // 
             // TB_total
             // 
@@ -299,7 +276,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Pizzaria_eddy.Properties.Resources.pizza;
-            this.pictureBox1.Location = new System.Drawing.Point(881, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(914, 68);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(414, 338);
@@ -338,11 +315,39 @@
             this.buttonRegresar.UseVisualStyleBackColor = true;
             this.buttonRegresar.Click += new System.EventHandler(this.buttonRegresar_Click);
             // 
+            // radioButtonSi
+            // 
+            this.radioButtonSi.AutoSize = true;
+            this.radioButtonSi.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.radioButtonSi.Location = new System.Drawing.Point(229, 319);
+            this.radioButtonSi.Name = "radioButtonSi";
+            this.radioButtonSi.Size = new System.Drawing.Size(41, 23);
+            this.radioButtonSi.TabIndex = 25;
+            this.radioButtonSi.TabStop = true;
+            this.radioButtonSi.Text = "Si";
+            this.radioButtonSi.UseVisualStyleBackColor = true;
+            this.radioButtonSi.CheckedChanged += new System.EventHandler(this.radioButtonSi_CheckedChanged);
+            // 
+            // radioButtonNo
+            // 
+            this.radioButtonNo.AutoSize = true;
+            this.radioButtonNo.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.radioButtonNo.Location = new System.Drawing.Point(287, 322);
+            this.radioButtonNo.Name = "radioButtonNo";
+            this.radioButtonNo.Size = new System.Drawing.Size(47, 23);
+            this.radioButtonNo.TabIndex = 26;
+            this.radioButtonNo.TabStop = true;
+            this.radioButtonNo.Text = "No";
+            this.radioButtonNo.UseVisualStyleBackColor = true;
+            this.radioButtonNo.CheckedChanged += new System.EventHandler(this.radioButtonNo_CheckedChanged);
+            // 
             // ordenar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1339, 632);
+            this.Controls.Add(this.radioButtonNo);
+            this.Controls.Add(this.radioButtonSi);
             this.Controls.Add(this.buttonRegresar);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.label4);
@@ -352,11 +357,9 @@
             this.Controls.Add(this.buttonConfirmar);
             this.Controls.Add(this.Lb_Total);
             this.Controls.Add(this.TB_total);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.CB_refrescoN);
-            this.Controls.Add(this.CB_refrescoS);
-            this.Controls.Add(this.B_refresco);
+            this.Controls.Add(this.CBCantidad);
+            this.Controls.Add(this.CBTamano);
+            this.Controls.Add(this.CBSabor);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.B_Ingrediente_3);
             this.Controls.Add(this.B_ingrediente_2);
@@ -365,7 +368,7 @@
             this.Controls.Add(this.L_Ingrediente_2);
             this.Controls.Add(this.L_ingrediente_1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CBIngredientes);
             this.Controls.Add(this.Box_tamano);
             this.Controls.Add(this.L_tamano);
             this.Font = new System.Drawing.Font("Mistral", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -387,7 +390,7 @@
 
         private System.Windows.Forms.Label L_tamano;
         private System.Windows.Forms.ComboBox Box_tamano;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CBIngredientes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label L_ingrediente_1;
         private System.Windows.Forms.Label L_Ingrediente_2;
@@ -396,11 +399,9 @@
         private System.Windows.Forms.ComboBox B_ingrediente_2;
         private System.Windows.Forms.ComboBox B_Ingrediente_3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox B_refresco;
-        private System.Windows.Forms.CheckBox CB_refrescoS;
-        private System.Windows.Forms.CheckBox CB_refrescoN;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox CBSabor;
+        private System.Windows.Forms.ComboBox CBTamano;
+        private System.Windows.Forms.ComboBox CBCantidad;
         private System.Windows.Forms.TextBox TB_total;
         private System.Windows.Forms.Label Lb_Total;
         private System.Windows.Forms.Button buttonConfirmar;
@@ -410,5 +411,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonRegresar;
+        private System.Windows.Forms.RadioButton radioButtonSi;
+        private System.Windows.Forms.RadioButton radioButtonNo;
     }
 }
