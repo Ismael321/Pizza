@@ -334,7 +334,6 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1355, 671);
             this.Name = "Admin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Eddy\'s";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Admin_FormClosing);
             this.Load += new System.EventHandler(this.Admin_Load);
