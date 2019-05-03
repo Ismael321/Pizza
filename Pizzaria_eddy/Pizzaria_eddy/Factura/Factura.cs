@@ -21,5 +21,10 @@ namespace Pizzaria_eddy.Factura
         {
 
         }
+
+        private void Factura_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
