@@ -75,7 +75,7 @@ namespace Pizzaria_eddy
         }
         private void inicio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Environment.Exit(0);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
