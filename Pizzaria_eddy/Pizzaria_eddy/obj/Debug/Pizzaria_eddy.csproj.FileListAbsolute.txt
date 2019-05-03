@@ -39,3 +39,4 @@ C:\Users\pepin\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizz
 =======
 C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Ordenar.ordenar.resources
 >>>>>>> 3233a73a5e3a09383621c3abbd6827ce81f0b961
+C:\Users\Sam's\Documents\GitHub\Pizza\Pizzaria_eddy\Pizzaria_eddy\obj\Debug\Pizzaria_eddy.Factura.Factura.resources
