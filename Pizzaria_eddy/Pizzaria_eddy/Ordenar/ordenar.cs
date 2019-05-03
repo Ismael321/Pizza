@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pizzaria_eddy.orden
+namespace Pizzaria_eddy.Ordenar
 {
     public partial class ordenar : Form
     {
         public ordenar()
         {
             InitializeComponent();
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void ordenar_Load(object sender, EventArgs e)
@@ -29,6 +24,7 @@ namespace Pizzaria_eddy.orden
 
         private void ordenar_FormClosing(object sender, FormClosingEventArgs e)
         {
+            this.Hide();
             new pizza().Show();
         }
     }
